@@ -1,12 +1,6 @@
-sudo: false
 language: node_js
 node_js:
-  - "4"
-  - "6"
-  - "7"
-
-git:
-  depth: 1
+  - 0.6
 
 notifications:
   irc: "irc.freenode.org#socket.io"
